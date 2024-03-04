@@ -42,6 +42,48 @@ function restoDeDivisao (a, b){
 restoDeDivisao(3, 2)
 */
 
+//exercicio 05
+/*
+const a = 0.1
+const b = 0.2
+const c = a + b
+const d = c.toFixed(2)
+console.log(d)
+*/
 
+//exercicio 06
+/*
+function jurosSimples (ci, tj, ta){
+    const a = ci * (1 + tj )
+    const b = a - ci
+    const c = b * ta
+    const d = a + c - b
+    console.log(a)
+    console.log(b)
+    console.log(c)
+    console.log(d)
+}
+jurosSimples(1000, 0.2, 4)
 
+function jurosCompostos (ci, tj, ta){
+    const a = ci * (1 + tj)
+    const b = a * (1 + tj)
+    const c = b - ci
+    const d = c * ta
+    const e = b + d - c*2
 
+    console.log(a)
+    console.log(b)
+    console.log(c)
+    console.log(d)
+    console.log(e)
+}
+
+jurosCompostos(1000, 0.1, 4)
+*/
+
+//exercicio 07
+function bhaskaras(a, b, c){
+   console.log( (-b + (Math.sqrt(b**2 - (4*a*c) )))/ 2*a)
+}
+bhaskaras(3, 5, 12)
