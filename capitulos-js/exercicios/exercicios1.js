@@ -83,7 +83,16 @@ jurosCompostos(1000, 0.1, 4)
 */
 
 //exercicio 07
-function bhaskaras(a, b, c){
-   console.log( (-b + (Math.sqrt(b**2 - (4*a*c) )))/ 2*a)
+function bhaskaras(a1, b1, c1){
+    const a = -b1
+    const b = 4*a1*c1
+    const c = b1**2
+    const d = c - b 
+    const e = Math.sqrt(d)
+    const f = a + e 
+    const g = 2*a1
+    return f / g
+   
+   //console.log( (-b + ( )))/ 2*a)
 }
-bhaskaras(3, 5, 12)
+console.log(bhaskaras(3, -5, 12))
