@@ -83,16 +83,22 @@ jurosCompostos(1000, 0.1, 4)
 */
 
 //exercicio 07
-function bhaskaras(a1, b1, c1){
-    const a = -b1
-    const b = 4*a1*c1
-    const c = b1**2
-    const d = c - b 
-    const e = Math.sqrt(d)
-    const f = a + e 
-    const g = 2*a1
-    return f / g
-   
-   //console.log( (-b + ( )))/ 2*a)
+/*
+function bhaskaras(ax2, bx, c){
+    let resultado = []
+    let delta = (bx ** 2) - (4*ax2*c)
+    if(delta < 0){
+        return 'Delta é negativo'
+    }
+    let x1 = (- bx + Math.sqrt(delta)) / (2*ax2)
+    let x2 = (- bx - Math.sqrt(delta)) / (2*ax2)
+    resultado.push(x1)
+    resultado.push(x2)
+    return resultado
 }
-console.log(bhaskaras(3, -5, 12))
+console.log(bhaskaras(1, 3, 2))
+console.log(bhaskaras(3, 1, 2))
+*/
+
+//exercicio 08
+
