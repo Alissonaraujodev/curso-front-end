@@ -101,4 +101,63 @@ console.log(bhaskaras(3, 1, 2))
 */
 
 //exercicio 08
+ 
+//exercicio 09
+/*
+function sistemaDeNotas(nota){
+    let notasArredondadas = arredondar(nota)
+    if(notasArredondadas < 40){
+        console.log(`Sua nota foi ${notasArredondadas} , Reprovado!`)
+    }else{
+        console.log(`Sua nota foi ${notasArredondadas} , Aprovado!`)
+    }
+}
+function arredondar(nota){
+    if(nota % 5 > 2){
+        return nota + (5 - (nota % 5))
+    }else {
+        return nota
+    }
+}
+sistemaDeNotas(36)
+sistemaDeNotas(43)
+sistemaDeNotas(52)
+sistemaDeNotas(88)
+sistemaDeNotas(100)
+*/
 
+//exercicio 10
+/*
+function divisivelPor3(n){
+    if(n % 3 > 0){
+        return false
+    }else {
+        return true
+    }
+}
+console.log(divisivelPor3(10))
+console.log(divisivelPor3(15))
+console.log(divisivelPor3(300))
+*/
+
+//exercicio 11
+/*
+function anoBissexto(ano){
+    if(ano > 0 && ano % 4 == 0 || ano % 400 == 0 && ano % 100 != 0){
+        return true
+    }else {
+        return false
+    }
+}
+console.log(anoBissexto(2020))
+console.log(anoBissexto(2021))
+console.log(anoBissexto(2022))
+console.log(anoBissexto(2023))
+console.log(anoBissexto(2024))
+console.log(anoBissexto(0))
+*/
+
+//exercicio 12
+function fatorial(numero){
+    
+}
