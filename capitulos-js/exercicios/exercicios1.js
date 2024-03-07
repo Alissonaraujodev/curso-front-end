@@ -158,6 +158,66 @@ console.log(anoBissexto(0))
 */
 
 //exercicio 12
+/*
 function fatorial(numero){
-    
+   if(numero == 0) {
+    return 1
+   }else{
+    return numero * fatorial(numero - 1) 
+   }
 }
+console.log(fatorial(5))
+*/
+
+//exercicio 13
+/*
+function diaDaSemana(n){
+    switch(n){
+        case 2:
+        case 3:
+        case 4:
+        case 5:
+        case 6:
+            console.log('Dia útil')
+            break;
+        case 1:
+        case 7:
+            console.log('Final de semana')
+            break;
+        default:
+            console.log('Dia inválido')
+            break;
+    }
+}
+diaDaSemana(2)
+diaDaSemana(8)
+diaDaSemana(7)
+diaDaSemana(1)
+*/
+
+//exercicio 14
+/*
+function mercado(fruta){
+    switch(fruta){
+        case 'maça':
+            console.log('Não vensemos essa fruta aqui.')
+            break;
+        case 'kiwi':
+            console.log('Estamos com escassez de kiwi.')
+            break;
+        case 'melancia':
+            console.log('Aqui esta, são R$3,00 o Kg.')
+            break;
+        default:
+            console.log('[ERRO]!')
+    }
+}
+mercado('maça')
+mercado('kiwi')
+mercado('melancia')
+mercado('laranja')
+*/
+
+//exercicio 15
+
+
