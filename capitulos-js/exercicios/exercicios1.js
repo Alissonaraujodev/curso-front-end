@@ -219,5 +219,38 @@ mercado('laranja')
 */
 
 //exercicio 15
+/*
+function comprarCarro(modelo){
+    switch(modelo){
+        case 'hatch':
+            return 'Compra efetuada com sucesso.'
+            break;
+        case 'sedans': 
+        case 'motocicletas': 
+        case 'caminhonetes':
+            return 'Tem certeza que não prefere outro modelo?'
+            break;
+        default:
+            return 'Não trabalhamos com este tipo de automóvel aqui.'
+            break;
+    }
+}
+console.log(comprarCarro('sedans'))
+console.log(comprarCarro('motocicletas'))
+console.log(comprarCarro('caminhonetes'))
+console.log(comprarCarro('hatch'))
+console.log(comprarCarro('onibus'))
+console.log(comprarCarro('caminhoes'))
+*/
+
+//exercicio 16
+
+function calculadora(numero1, operacao, numero2){
+    switch(numero1, operacao, numero2){
+        case '+':
+            
+    }
+}
+
 
 
