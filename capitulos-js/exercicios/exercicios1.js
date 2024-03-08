@@ -244,13 +244,56 @@ console.log(comprarCarro('caminhoes'))
 */
 
 //exercicio 16
-
+/*
 function calculadora(numero1, operacao, numero2){
-    switch(numero1, operacao, numero2){
+    switch(operacao){
         case '+':
-            
+            return numero1 + numero2
+            break;
+        case '-':
+            return numero1 - numero2
+            break;
+        case '*':
+            return numero1 * numero2
+            break;
+        case '/':
+            return numero1 / numero2
+            break;
+        default: 
+            return 'Operação inválida'
     }
 }
+console.log(calculadora(1,'+',2))
+console.log(calculadora(1,'-',2))
+console.log(calculadora(1,'*',2))
+console.log(calculadora(1,'/',2))
+console.log(calculadora(1,'%',2))
+*/
 
+//exercicio 17
+/*
+function aumento(plano, salario){
+    switch(plano){
+        case 'a':
+            return salario * (1 + 0.1)
+            break;
+        case 'b':
+            return salario * (1 + 0.15)
+            break;
+        case 'c':
+            return salario * (1 + 0.2)
+            break;
+        default:
+            return 'Plano inválido'
+    }
+}
+const a = aumento('a',1500)
+console.log(a.toFixed())
+const b = aumento('b',1500)
+console.log(Math.round(b))
+console.log(aumento('c',1500))
+console.log(aumento('d',1500))
+*/
 
+//exercicio 18
 
