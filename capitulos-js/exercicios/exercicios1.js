@@ -405,8 +405,53 @@ console.log(lanche(700, 1))
 
 //exercicio 20
 
-    
-    
-    
+//exercicio 21
+/*
+function planoDeSaude(idade){
+    this.valor = 100
 
+    if(idade < 10){
+        return valor + 80
+    }else if(idade <= 30){
+        return valor + 50
+    }else if(idade <= 60){
+        return valor + 95
+    }else {
+        return valor + 130
+    }
+}   
+console.log(planoDeSaude(5))
+console.log(planoDeSaude(15))
+console.log(planoDeSaude(31))
+console.log(planoDeSaude(75))
+*/
+
+//exercicio 22
+
+
+//exercicio 23
+
+
+//exercicio 24
+/*
+let c = 0
+while(c < 12){
+    console.log (c + ' Hello World')
+    c++
+}
+*/
+
+//exercicio 25
+/*
+for(c = 0; c <=50; c++){
+    console.log(c)
+}
+ */   
+
+//exercicio 26
+for(c = 1; c <= 100; c++){
+    if( c%2 == 0){
+        console.log(c)
+    }
+}
 
