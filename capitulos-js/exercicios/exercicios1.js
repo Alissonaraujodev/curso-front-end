@@ -273,6 +273,8 @@ console.log(calculadora(1,'%',2))
 //exercicio 17
 /*
 function aumento(plano, salario){
+    this.salario = salario
+    this.plano = plano
     switch(plano){
         case 'a':
             return salario * (1 + 0.1)
@@ -288,12 +290,123 @@ function aumento(plano, salario){
     }
 }
 const a = aumento('a',1500)
-console.log(a.toFixed())
+console.log(`Salario atual- R$ ${salario}, novo salario com plano ${plano} RS ${a.toFixed()}`)
 const b = aumento('b',1500)
-console.log(Math.round(b))
-console.log(aumento('c',1500))
+console.log(`Salario atual- R$ ${salario}, novo salario com plano ${plano} RS ${Math.round(b)}`)
+const c = aumento('c',1500)
+console.log(`Salario atual- R$ ${salario}, novo salario com plano ${plano} RS ${c}`)
 console.log(aumento('d',1500))
 */
 
 //exercicio 18
+/*
+function numeroExtenso(numero){
+    switch(numero){
+        case 0:
+            console.log('Zero')
+            break;
+        case 1:
+            console.log('Um')
+            break;
+        case 2:
+            console.log('Dois')
+            break;
+        case 3:
+            console.log('Três')
+            break;
+        case 4:
+            console.log('Quatro')
+            break;
+        case 5:
+            console.log('Cinco')
+            break;
+        case 6:
+            console.log('Seis')
+            break;
+        case 7:
+            console.log('Sete')
+            break;
+        case 8:
+            console.log('Oito')
+            break;
+        case 9:
+            console.log('Nove')
+            break;
+        case 10:
+            console.log('Dez')
+            break;
+        default:
+            console.log('Número fora do intervalo.')
+    }
+}
+numeroExtenso(0)
+numeroExtenso(3)
+numeroExtenso(8)
+numeroExtenso(10)
+numeroExtenso(11)
+*/
+
+//exercicio 19
+/*
+function lanche(codigo, quantidade){
+    this.quantidade = quantidade
+    const cachorroQuente = 100
+    const hamburguerSimples = 200
+    const cheeseburguer = 300
+    const bauru = 400
+    const refrigerante = 500
+    const suco = 700 
+     
+    switch(codigo){
+        case 100:
+            return quantidade * 3 
+            break;
+        case 200:
+            return quantidade * 4
+            break;
+        case 300:
+            return quantidade * 5.5
+            break;
+        case 400:
+            return quantidade * 7.5
+            break;
+        case 500:
+            return quantidade * 3.5
+            break;
+        case 600:
+            return quantidade * 2.8
+            break;
+        default:
+            return 'Produto não existente'
+
+    }
+}
+const cachorroQuente = 'Cachorro quente(s)'
+const hamburguerSimples = 'Hamburguer(s) Simples'
+const cheeseburguer = 'Cheeseburguer(s)'
+const bauru = 'Bauru(s)'
+const refrigerante = 'Refrigerante(s)'
+const suco = 'Suco(s)'
+const codigo100 = lanche(100, 3)
+const codigo200 = lanche(200, 3)
+const codigo300 = lanche(300, 3)
+const codigo400 = lanche(400, 3)
+const codigo500 = lanche(500, 3)
+const codigo600 = lanche(600, 3)
+
+console.log(`${quantidade} ${cachorroQuente} custam R$${codigo100}.`)
+console.log(`${quantidade} ${hamburguerSimples} custam R$${codigo200}.`)
+console.log(`${quantidade} ${cheeseburguer} custam R$${codigo300}.`)
+console.log(`${quantidade} ${bauru} custam R$${codigo400}.`)
+console.log(`${quantidade} ${refrigerante} custam R$${codigo500}.`)
+console.log(`${quantidade} ${suco} custam R$${codigo600.toFixed(2)}.`)
+console.log(lanche(700, 1))
+*/
+
+//exercicio 20
+
+    
+    
+    
+
 
