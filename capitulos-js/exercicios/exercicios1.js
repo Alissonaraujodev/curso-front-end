@@ -443,15 +443,17 @@ while(c < 12){
 
 //exercicio 25
 /*
-for(c = 0; c <=50; c++){
+for(c = 0; c <= 100; c++){
     console.log(c)
 }
- */   
+*/  
 
 //exercicio 26
+/*
 for(c = 1; c <= 100; c++){
     if( c%2 == 0){
         console.log(c)
     }
 }
+*/
 
