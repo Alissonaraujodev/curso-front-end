@@ -457,3 +457,37 @@ for(c = 1; c <= 100; c++){
 }
 */
 
+//exercicio 27
+
+//exercicio 28
+
+//exercicio 29
+
+//exercicio 30
+
+//exercicio 31
+
+//exercicio 32
+
+//exercicio 33
+
+//exercicio 34
+
+//exercicio 35 
+/*
+let pilha = [1, 2, 3, 4, 5]
+let adiciona = [ 6, 7, 8, 9, 10]
+
+console.log(pilha.concat(adiciona))
+*/
+
+//exercicio 36
+
+//exercicio 37
+
+//exercicio 38
+
+//exercicio 39
+
+//exercicio 40
+
